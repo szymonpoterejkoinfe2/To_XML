@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesop:CESOP xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:cesop="urn:ec.europa.eu:taxud:fiscalis:cesop:v1" xmlns:iso="urn:eu:taxud:isotypes:v1" xmlns:cm="urn:eu:taxud:commontypes:v1" version="4.02">
+	<cesop:MessageSpec>
+		<cesop:TransmittingCountry>BE</cesop:TransmittingCountry>
+		<cesop:MessageType>PMT</cesop:MessageType>
+		<cesop:MessageTypeIndic>CESOP100</cesop:MessageTypeIndic>
+		<cesop:MessageRefId>c0583f2d-8a12-4362-ae2d-0704917d8e87</cesop:MessageRefId>
+		<cesop:ReportingPeriod>
+			<cesop:Quarter>1</cesop:Quarter>
+			<cesop:Year>2024</cesop:Year>
+		</cesop:ReportingPeriod>
+		<cesop:Timestamp>2023-02-03T11:53:25+01:00</cesop:Timestamp>
+	</cesop:MessageSpec>

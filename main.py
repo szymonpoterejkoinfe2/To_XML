@@ -15,7 +15,12 @@ def LoadFile(filepath,delimiter=','):
 
     return dataframe, headers
 
+
 loadedData, loadedHeaders = LoadFile("PSPFileExample_2024_CSV.csv")
 
 dataCorrect = ValidateData(loadedData,loadedHeaders)
 
+if dataCorrect:
+    xmlFile = open('test.xml','w')
+    ReportInfo = Report(loadedData[0][0],loadedData[0][1],loadedData[0][2],loadedData[0][3],loadedData[0][4],loadedData[0][5],loadedData[0][6],loadedData[0][7])
+    ReportInfo.AddToFile(xmlFile)
